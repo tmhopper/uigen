@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install Vercel CLI
-        run: npm install --global vercel@39
+        run: npm install --global vercel@latest
       - name: Deploy to Vercel
         run: vercel --prod --yes
